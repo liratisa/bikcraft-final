@@ -1,0 +1,42 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  padding: 10px 10px;
+  background-color: black;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.link-area {
+  display: flex;
+  gap: 25px;
+}
+
+.link-area a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.3px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-out;
+}
+
+.link-area a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

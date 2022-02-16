@@ -1,0 +1,71 @@
+.tecnologia-area {
+  box-shadow: inset -1px 40px #ffff, inset 0px -30px #ffff;
+}
+
+.tecnologia {
+  display: grid;
+  align-self: center;
+}
+
+.descricao {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.tecnologia .btn {
+  color: #ffbb00;
+  background-color: black;
+  padding: 2px 0px;
+  border-bottom: 2px solid #ffbb00;
+  border-radius: 0;
+  font-size: 1.3rem;
+}
+
+.tecnologia .btn:hover {
+  color: #ffff;
+  border-bottom: 2px solid #ffff;
+}
+
+li {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  margin: 0;
+}
+
+.subtitulo {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.subtitulo,
+.tecnologia p {
+  color: #9a9a8d;
+  font-weight: normal;
+}
+
+.tecnologia .titulo-medio {
+  line-height: 1;
+  color: #ffff;
+}
+
+.tec-lista {
+  display: flex;
+  gap: 20px;
+}
+
+.item-desc {
+  font-size: 1rem;
+}
+
+.tec-itens {
+  padding: 0;
+}
+
+.descricao {
+  padding: 20px 0px;
+}
+
+li {
+  padding: 20px 0;
+}

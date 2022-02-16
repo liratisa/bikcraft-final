@@ -1,0 +1,25 @@
+.parceiros-area {
+  background-color: #ffff;
+  display: grid;
+  justify-content: center;
+}
+
+.container-parceiros {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 120px;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.parceiros-itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.parceiros-itens img {
+  padding: 32px;
+}

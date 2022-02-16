@@ -1,0 +1,36 @@
+.seguros-area {
+  display: grid;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.seguros {
+  /* max-width: fit-content; */
+  padding: 40px;
+}
+
+.prata-itens li {
+  list-style-type: "✓";
+  padding: 10px;
+}
+
+.prata-flex h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.prata-flex {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.prata-flex span {
+  grid-column: 2;
+  margin: 0;
+  place-self: center;
+  font-size: 0.9rem;
+}
+
+.prata-flex p {
+  place-self: center;
+  font-size: 1.3rem;
+}

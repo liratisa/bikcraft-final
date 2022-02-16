@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+.ponto {
+  color: #ffbb00;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.titulo-grande {
+  font-size: 4.5rem;
+}
+
+.titulo-grande,
+.titulo-medio,
+.titulo-pequeno,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.titulo-medio {
+  font-size: 3.8rem;
+}
+
+.titulo-pequeno {
+  font-size: 1.8rem;
+}
+
+li {
+  list-style: none;
+}

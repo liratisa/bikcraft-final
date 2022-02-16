@@ -1,0 +1,64 @@
+.produtos-area {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.produtos {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.titulo-pequeno,
+.produtos p {
+  margin: 10px 20px;
+}
+
+.produtos p {
+  color: #777771;
+}
+
+.titulo-pequeno {
+  position: relative;
+}
+
+.titulo-pequeno::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  left: -20px;
+  top: 12px;
+  width: 15px;
+  height: 6px;
+  background-color: #ffbb00;
+}
+
+.produtos img {
+  border-radius: 5px;
+}
+
+.produtos img,
+.titulo-pequeno {
+  cursor: pointer;
+}
+
+.titulo-pequeno:hover {
+  padding-left: 20px;
+  transition: all 0.3s;
+}
+
+.titulo-pequeno:hover::before {
+  width: 30px;
+  height: 6px;
+  background-color: #ffbb00;
+  transition: all 0.3s;
+}
+
+.titulo-medio {
+  padding: 30px 0px;
+}
