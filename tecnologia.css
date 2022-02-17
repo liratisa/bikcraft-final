@@ -12,16 +12,16 @@
   font-weight: normal;
 }
 
-.tecnologia .btn {
+.tecnologia .tec {
   color: #ffbb00;
-  background-color: black;
   padding: 2px 0px;
   border-bottom: 2px solid #ffbb00;
   border-radius: 0;
   font-size: 1.3rem;
+  text-transform: uppercase;
 }
 
-.tecnologia .btn:hover {
+.tec:hover {
   color: #ffff;
   border-bottom: 2px solid #ffff;
 }

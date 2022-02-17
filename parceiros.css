@@ -2,6 +2,8 @@
   background-color: #ffff;
   display: grid;
   justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .container-parceiros {
