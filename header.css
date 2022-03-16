@@ -4,12 +4,11 @@
   align-items: center;
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 10px;
 }
 
 header {
-  padding: 10px 10px;
   background-color: black;
+  margin-bottom: 30px;
 }
 
 header a {

@@ -1,87 +1,103 @@
-.seguros-area {
-  max-width: 1200px;
-  margin: 0 auto;
+.seguros .titulo-bg {
+  margin-bottom: 50px;
 }
 
-.container-seguros {
+.lista-vantagens {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  justify-items: start;
+  margin-bottom: 30px;
+}
+
+.lista-vantagens li {
+  color: #ffff;
+}
+
+.lista-vantagens h4 {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.lista-vantagens p {
+  font-size: 1rem;
+  color: #b2b2b2;
+}
+
+.faq {
+  background-color: #ffff;
+  padding-bottom: 45px;
+}
+
+.faq .titulo-grande {
+  color: #111;
+}
+
+.faq .titulo-apresentacao {
+  padding-bottom: 35px;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  background: none;
+  border-radius: 5px;
+}
+
+.accordion-header img {
+  transform: rotate(180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.accordion.active img {
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.filter-yellow {
+  filter: invert(69%) sepia(93%) saturate(1716%) hue-rotate(0deg)
+    brightness(102%) contrast(109%);
+}
+
+.accordion-header strong {
+  font-size: 1.2rem;
+  display: flex;
   align-items: center;
 }
 
-.container-seguros h2 {
-  grid-column: 1 / -1;
-  color: #ffff;
-}
-
-.seguros-itens {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  justify-items: center;
-  background-color: #111;
-  border-radius: 4px;
-  padding: 32px;
-  max-width: 80%;
-}
-
-.seguros-itens h3 {
-  text-transform: uppercase;
-  place-self: start;
-  font-size: 1.8rem;
-}
-
-.seguros-itens a {
-  grid-row: 3;
-}
-
-.seguros-itens span {
-  display: block;
-  color: #ffff;
-  align-self: center;
-}
-
-.seguros-itens ul {
-  padding: 0;
-  margin-bottom: 30px;
-  place-self: start;
-  grid-column: 1 / -1;
-}
-
-.seguros-itens li {
-  color: #9a9a8d;
-  padding: 10px;
-}
-
-.seguros-itens li:before {
-  content: "✓";
-  color: #ffbb00;
-  font-weight: bold;
+.accordion-header strong::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 5px;
+  background-color: #ffbb00;
   margin-right: 5px;
 }
 
-.valor {
-  font-size: 2rem;
+div.accordion:nth-child(even) {
+  background-color: #f7f7f7;
 }
 
-span .mensal {
-  font-size: 0.8rem;
-  color: #9a9a8d;
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  max-width: 90%;
+  /* padding: 8px 20px; */
 }
 
-.ouro {
-  color: #ffbb00;
+.accordion-body .p-accordion {
+  padding: 8px 37px;
 }
 
-.prata {
-  color: grey;
-}
-
-.estilo-2 {
-  background-color: #2e2e2e;
-  color: #ffff;
-}
-
-.estilo-2:hover {
-  background-color: #3d3c3c;
+.accordion.active .accordion-body {
+  font-size: 1rem;
+  max-height: 8rem;
+  transition: all 0.5s ease-in-out;
 }

@@ -1,0 +1,20 @@
+.termos-bg {
+  background-color: #ffff;
+}
+
+.termos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.termos h2 {
+  padding-top: 30px;
+}
+
+.termos p {
+  text-align: start;
+  max-width: 60%;
+  line-height: 1.6rem;
+  color: #222325;
+  margin-bottom: 20px;
+}

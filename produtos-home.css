@@ -1,8 +1,12 @@
+.container .produtos {
+  background-color: #fff;
+  margin: 0 auto;
+}
 .produtos-area {
   display: flex;
   gap: 50px;
   justify-content: space-between;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -10,8 +14,8 @@
   display: grid;
   justify-content: center;
   gap: 20px;
-  background-color: #fff;
   padding: 40px;
+  background-color: #fff;
 }
 
 .titulo-pequeno,
@@ -36,6 +40,7 @@
   width: 15px;
   height: 6px;
   background-color: #ffbb00;
+  transition: all 0.3s;
 }
 
 .produtos img {
@@ -45,6 +50,7 @@
 .produtos img,
 .titulo-pequeno {
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .titulo-pequeno:hover {

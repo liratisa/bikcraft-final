@@ -1,5 +1,5 @@
 .tecnologia-area {
-  box-shadow: inset -1px 40px #ffff, inset 0px -30px #ffff;
+  box-shadow: inset -1px 40px #ffff, inset 0px -40px #ffff;
 }
 
 .tecnologia {
@@ -52,6 +52,7 @@ li {
 .tec-lista {
   display: flex;
   gap: 20px;
+  margin-top: 20px;
 }
 
 .item-desc {

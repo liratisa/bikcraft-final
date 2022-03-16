@@ -1,0 +1,87 @@
+.seguros-area {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-seguros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.container-seguros h2 {
+  grid-column: 1 / -1;
+  color: #ffff;
+}
+
+.seguros-itens {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-items: center;
+  background-color: #111;
+  border-radius: 4px;
+  padding: 32px;
+  max-width: 80%;
+}
+
+.seguros-itens h3 {
+  text-transform: uppercase;
+  place-self: start;
+  font-size: 1.8rem;
+}
+
+.seguros-itens a {
+  grid-row: 3;
+}
+
+.seguros-itens span {
+  display: block;
+  color: #ffff;
+  align-self: center;
+}
+
+.seguros-itens ul {
+  padding: 0;
+  margin-bottom: 30px;
+  place-self: start;
+  grid-column: 1 / -1;
+}
+
+.seguros-itens li {
+  color: #9a9a8d;
+  padding: 10px;
+}
+
+.seguros-itens li:before {
+  content: "✓";
+  color: #ffbb00;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.valor {
+  font-size: 2rem;
+}
+
+span .mensal {
+  font-size: 0.8rem;
+  color: #9a9a8d;
+}
+
+.ouro {
+  color: #ffbb00;
+}
+
+.prata {
+  color: grey;
+}
+
+.estilo-2 {
+  background-color: #2e2e2e;
+  color: #ffff;
+}
+
+.estilo-2:hover {
+  background-color: #3d3c3c;
+}
