@@ -35,11 +35,15 @@ p {
   font-size: 1.2rem;
   font-weight: bold;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 20px 30px;
   border: none;
   box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
   background: linear-gradient(#ffbf00, #f2a50c);
   cursor: pointer;
+}
+
+.btn:hover {
+  background: #db950a;
 }
 
 .titulo-medio {
@@ -64,4 +68,8 @@ a {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+input {
+  outline: none;
 }

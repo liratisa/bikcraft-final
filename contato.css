@@ -18,7 +18,7 @@
 }
 
 .lista-contatos {
-  padding: 60px;
+  padding: 60px 200px 60px 60px;
   background-color: rgb(0, 0, 0);
   border-radius: 4px 0px 0px 4px;
   box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
@@ -44,7 +44,7 @@
 
 .contatos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   align-items: start center;
 }
 
@@ -100,7 +100,7 @@ input:focus {
 
 .local-area {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 
 .local {

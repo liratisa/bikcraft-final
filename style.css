@@ -1,6 +1,6 @@
 @import "estilos-gerais.css";
 @import "header.css";
-@import "introducao.css";
+@import "home.css";
 @import "produtos-home.css";
 @import "tecnologia.css";
 @import "parceiros.css";
@@ -11,3 +11,5 @@
 @import "termos.css";
 @import "seguros-home.css";
 @import "contato.css";
+@import "nome-bike.css";
+@import "orcamento.css";

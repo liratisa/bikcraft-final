@@ -1,6 +1,6 @@
-.seguros-area {
-  max-width: 1200px;
-  margin: 0 auto;
+.area-seguros {
+  background-color: #111111;
+  padding: 40px 0;
 }
 
 .container-seguros {
@@ -19,7 +19,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   justify-items: center;
-  background-color: #111;
+  background-color: #000000;
   border-radius: 4px;
   padding: 32px;
   max-width: 80%;
@@ -51,21 +51,22 @@
 .seguros-itens li {
   color: #9a9a8d;
   padding: 10px;
+  font-size: 1.2rem;
 }
 
 .seguros-itens li:before {
   content: "✓";
   color: #ffbb00;
   font-weight: bold;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
-.valor {
+.seguros-itens .valor {
   font-size: 2rem;
 }
 
 span .mensal {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #9a9a8d;
 }
 
@@ -74,14 +75,14 @@ span .mensal {
 }
 
 .prata {
-  color: grey;
+  color: #9c9c9c;
 }
 
-.estilo-2 {
-  background-color: #2e2e2e;
+.estilo-prata {
+  background: #2e2e2e;
   color: #ffff;
 }
 
-.estilo-2:hover {
-  background-color: #3d3c3c;
+.estilo-prata:hover {
+  background: #1d1d1d;
 }

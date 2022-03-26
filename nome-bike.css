@@ -1,0 +1,145 @@
+.bike-area {
+  background-color: #111;
+}
+
+.img-bike {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-items: start;
+}
+
+.img-bike img {
+  border-radius: 4px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.img-bike img:first-child {
+  grid-column: 1 / -1;
+  height: 100%;
+}
+
+.bike {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: start;
+  padding-bottom: 30px;
+}
+
+.bike-infos p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: #b2b2b2;
+  margin-bottom: 20px;
+}
+
+.bike-comprar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.bike-icon {
+  display: flex;
+  gap: 8px;
+  background-color: black;
+  margin-bottom: 5px;
+  padding: 3px;
+  border-radius: 4px;
+  align-items: center;
+  padding: 4px 8px;
+}
+
+.bike-icon span {
+  display: block;
+  font-size: 0.9rem;
+  color: #b2b2b2;
+}
+
+.titulo-info {
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 0.8rem;
+}
+
+.lista-infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.lista-infos li {
+  padding: 0;
+}
+
+.lista-infos p {
+  font-size: 0.9rem;
+  color: #b2b2b2;
+}
+
+.lista-infos h4 {
+  font-size: 1rem;
+  color: #fff;
+  margin: 30px 0px 0px 0px;
+}
+
+.especificacoes {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.especificacoes-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #111111;
+}
+
+.especificacoes-item p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #b2b2b2;
+}
+
+.conheca-mais {
+  background: linear-gradient(180deg, rgba(255, 253, 253, 1) 8%, #111111 8%);
+}
+
+.conheca-img img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.conheca {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-content: start;
+}
+
+.conheca-infos {
+  place-self: center;
+  display: grid;
+  gap: 15px;
+}
+
+.conheca-infos h2 {
+  color: #fff;
+  font-size: 4.5rem;
+  margin: 0;
+}
+
+.conheca-infos p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 20px;
+  color: #b2b2b2;
+}

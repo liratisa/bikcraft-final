@@ -27,13 +27,14 @@
 
 .footer-area li {
   font-size: 1.2rem;
+  padding: 10px 0;
 }
 
 .footer-area a:hover {
   color: #ffbb00;
 }
 
-.coluna {
+footer .coluna {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +54,7 @@
 
 .direitos-reservados {
   grid-column: 1 / -1;
-  padding: 30px 10px 30px 10px;
+  padding: 40px 10px 30px 10px;
   font-size: 1.1rem;
 }
 
