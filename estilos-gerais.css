@@ -29,8 +29,11 @@ p {
   padding: 0;
 }
 
-.btn {
+a {
   text-decoration: none;
+}
+
+.btn {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: bold;
@@ -59,8 +62,8 @@ li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
+a:not(header a) {
+  color: #000000;
 }
 
 .container {
@@ -74,8 +77,4 @@ a {
 input,
 textarea {
   outline: none;
-}
-
-a:visited {
-  text-decoration: none;
 }
