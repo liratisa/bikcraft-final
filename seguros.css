@@ -1,5 +1,11 @@
 .seguros-area {
   padding-top: 60px;
+  background-color: #111111;
+}
+
+.seguros-area,
+.vantagens {
+  padding: 40px 0;
 }
 
 .seguros .titulo-bg {
