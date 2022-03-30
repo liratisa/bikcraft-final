@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orçamento | Bikcraft</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="./main.js"></script>
     <link
       rel="shortcut icon"
       href="./img/detalhes/bike-favicon.png"
@@ -181,7 +182,7 @@
 
             <div>
               <label for="cep">CEP</label>
-              <input id="cep" type="number" />
+              <input id="cep" type="text" required placeholder="00000000" />
             </div>
 
             <div>
@@ -191,22 +192,22 @@
 
             <div>
               <label for="logradouro">Logradouro</label>
-              <input id="logradouro" type="number" />
+              <input id="logradouro" type="text" />
             </div>
 
             <div>
               <label for="bairro">Bairro</label>
-              <input id="bairro" type="number" />
+              <input id="bairro" type="text" />
             </div>
 
             <div>
               <label for="cidade">Cidade</label>
-              <input id="cidade" type="number" />
+              <input id="cidade" type="text" />
             </div>
 
             <div>
               <label for="estado">Estado</label>
-              <input id="estado" type="number" />
+              <input id="estado" type="text" />
             </div>
 
             <button class="btn">
