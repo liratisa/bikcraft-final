@@ -11,7 +11,6 @@
       href="./img/detalhes/bike-favicon.png"
       type="image/x-icon"
     />
-    <script defer src="./app.js"></script>
   </head>
   <body>
     <header>
@@ -41,11 +40,17 @@
 
       <section class="bike-area">
         <div class="bike container">
-          <div class="img-bike">
-            <img class="img-1" src="./img/bicicleta/nimbus1.jpg" alt="" />
-            <img src="./img/bicicleta/nimbus2.jpg" alt="" />
-            <img src="./img/bicicleta/nimbus3.jpg" alt="" />
-          </div>
+          <ul class="img-bike">
+            <li>
+              <img
+                class="imagem-principal"
+                src="./img/bicicleta/nimbus1.jpg"
+                alt="Bicicleta 1"
+              />
+            </li>
+            <li><img src="./img/bicicleta/nimbus2.jpg" alt="Bicicleta 2" /></li>
+            <li><img src="./img/bicicleta/nimbus3.jpg" alt="Bicicleta 3" /></li>
+          </ul>
 
           <div class="bike-infos">
             <div>
@@ -58,7 +63,9 @@
             <div class="bike-comprar">
               <div>
                 <button class="btn">
-                  <a href="./orcamento.html">Comprar agora</a>
+                  <a href="./orcamento.html?tipo=bikcraft&produto=nimbus"
+                    >Comprar agora</a
+                  >
                 </button>
               </div>
 
@@ -225,5 +232,7 @@
         <p>Bikcraft ©. Alguns direitos reservados.</p>
       </div>
     </footer>
+    <script async src="./nimbus.js"></script>
+    <script async src="./main.js"></script>
   </body>
 </html>

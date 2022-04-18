@@ -6,7 +6,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  place-items: start;
+  justify-items: start;
+}
+
+.img-bike li:first-child {
+  grid-column: 1 / -1;
 }
 
 .img-bike img {

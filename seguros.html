@@ -11,7 +11,6 @@
       href="./img/detalhes/bike-favicon.png"
       type="image/x-icon"
     />
-    <script defer src="./main.js"></script>
   </head>
   <body>
     <header>
@@ -47,7 +46,11 @@
               <li>Suporte 08h às 18h</li>
               <li>Cobertura estadual</li>
             </ul>
-            <a class="btn estilo-prata" href="./orcamento.html">Inscreva-se</a>
+            <a
+              class="btn estilo-prata"
+              href="./orcamento.html?tipo=seguro&produto=prata"
+              >Inscreva-se</a
+            >
           </div>
           <div class="seguros-itens">
             <h3 class="ouro">Ouro</h3>
@@ -60,7 +63,11 @@
               <li>Desconto em parceiros</li>
               <li>Acesso ao Clube Bikcraft</li>
             </ul>
-            <a class="btn estilo-ouro" href="./orcamento.html">Inscreva-se</a>
+            <a
+              class="btn estilo-ouro"
+              href="./orcamento.html?tipo=seguro&produto=ouro"
+              >Inscreva-se</a
+            >
           </div>
         </div>
       </article>
@@ -275,5 +282,7 @@
         <p>Bikcraft ©. Alguns direitos reservados.</p>
       </div>
     </footer>
+    <script async src="./seguros.js"></script>
+    <script async src="./main.js"></script>
   </body>
 </html>
